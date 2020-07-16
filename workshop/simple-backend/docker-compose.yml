@@ -1,0 +1,15 @@
+version: "3.8"
+services: 
+  web:
+    build: .
+    image: anthikaji/app:1.1.1
+    ports: 
+     - "4000:4000" 
+
+  #docker-compose build : build image
+  #docker-compose up : (foregrond process) 
+  #docker-compose up -d :background process
+  #docker-compose down : remove all resources (container, network)
+  #docker compose ps : list of container 
+  #docker compose logs web : view log of service
+
