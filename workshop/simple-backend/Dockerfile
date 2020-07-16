@@ -1,7 +1,7 @@
 #https://hub.docker.com/r/neeyalionessdk/app
 FROM node:12.18.2-stretch
 WORKDIR /app  
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 4000
