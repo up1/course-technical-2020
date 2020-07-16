@@ -5,6 +5,13 @@ services:
     image: riceratthawan/app:1.1.1
     ports:
       - "4000:4000"
+  mongo:
+    image: mongo:4.2.8
+
 
 # docker-compose build //Build image
-#
+# docker-compose up //Foreground process
+# docker-compose up -d //Background process
+# docker-compose ps //List of containers
+# docker-compose logs web //View log of web service
+# docker-compose down //Remove all resources(containers,network)
