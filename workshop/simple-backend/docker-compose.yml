@@ -1,0 +1,14 @@
+version: "3.8" #version docker
+services: 
+  web:
+    build: .
+    image: toonhudsha/app:1.1.1
+    ports:
+      - "4000:4000"
+      
+# docper-compose build    = build image
+# docper-compose up       = Foreground process
+# docper-compose up -d    = Background process
+# docper-compose ps       = List of containers
+# docker-compose logs web = View log of web service
+# docker-compost down     = Remove all resource (container, network, volumn)
