@@ -1,1 +1,9 @@
 version: "3.8"
+service:
+  web:
+    build: .
+    image: anchisatea/app:1.1.1
+    ports:
+      - "4000:4000"
+
+#docker-compose build // Build image
