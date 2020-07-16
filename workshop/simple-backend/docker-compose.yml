@@ -1,0 +1,8 @@
+# https://hub.docker.com/r/capmu/app
+version: "3.8"
+services:
+  web:
+    build: .
+    image: capmu/app:1.1.1
+    ports:
+      - "4000:4000"
