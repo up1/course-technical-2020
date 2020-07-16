@@ -5,3 +5,22 @@ services:
     image: adisornwatt/app:1.1.1
     ports:
       - "4000:4000"
+  mongo:
+    image: mongo:4.2.8
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+      - MONGO_INITDB_DATABASE=mydb 
+
+
+
+
+# docker-compose build //build image
+# docker-compose up //run foreground process
+# docker-compose up -d//run background process
+# docker-compose ps //List of container
+# docker-compose logs web //View log of web service
+# docker-compose down //remove all resouces (container, network)
+  
+
+    
