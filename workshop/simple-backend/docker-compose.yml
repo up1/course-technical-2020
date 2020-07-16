@@ -2,14 +2,20 @@ version: '3.8'
 services:
   web:
     build: .
-    image: monoaim/myapp:1.1.1
+    image: monoaim/myapp:1.1.2
     ports:
     - "4000:4000"
+  mongo:
+    image: mongo:4.2.8
+    environment: 
+      - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+      - MONGO_INITDB_DATABASE=mydb
 
 
-# docker-compose // Build image
+# docker-compose build // Build image
 # docker-compose up // fg process
 # docker-compose up -d // bg process
 # docker-compose ps // list of container
-# docker-compose ps logs web// view logs of web service
+# docker-compose ps logs web // view logs of web service
 # docker-compose down // remove all resource (container, network)
