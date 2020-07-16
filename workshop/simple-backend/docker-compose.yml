@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    image: monoaim/myapp:1.1.1
+    ports:
+    - "4000:4000"
+
+
+# docker-compose // Build image
+# docker-compose up // fg process
+# docker-compose up -d // bg process
+# docker-compose ps // list of container
+# docker-compose ps logs web// view logs of web service
+# docker-compose down // remove all resource (container, network)
