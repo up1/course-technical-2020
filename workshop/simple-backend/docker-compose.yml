@@ -5,6 +5,15 @@ services:
         image: ekkaratpr/app:1.1.1
         ports: 
           - "4000:4000"
+    mongo:
+        image: mongo:4.2.8
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+            - MONGO_INITDB_ROOT_PASSWORD=secret
+            - MONGO_INITDB_DATABASE=mydb
+
+
+    
 
 
 # docker-compose build //build image
@@ -15,3 +24,4 @@ services:
 
 # docker-compose ps // process list (list of containers )(service)
 # docker-compose logs web // view logs of webs service
+
