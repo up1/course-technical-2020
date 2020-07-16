@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    image: joker10130/app:1.1.1
+    ports:
+      - "4000:4000"
+
+# https://hub.docker.com/repository/docker/joker10130/app
+# docker-compose build
+# docker-compose up
+# docker-compose up -d
+# docker-compose ps
+# docker-compose logs web
+# docker-compose down
+
+# 1. Fork
+# 2. Create file docker-compose.yml
+# 3. PR
