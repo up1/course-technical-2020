@@ -1,4 +1,4 @@
-#https://hub.docker.com/repository/docker/macpunjarat/myapp
+#https://hub.docker.com/repository/docker/macpunjarat/app
 FROM node:12.18.2-stretch
 WORKDIR /app
 COPY package*.json ./
