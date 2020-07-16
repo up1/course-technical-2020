@@ -1,0 +1,7 @@
+version : "3.8"
+services:
+    web:
+        build: .
+        image: chattarinpardermwong/app:1.1.1
+        ports: 
+            - "4000:4000"
