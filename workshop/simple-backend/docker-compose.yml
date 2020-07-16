@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    image: kerati970/app:1.1.1
+    ports:
+      - "4000:4000"
+
+# docker-compose build = build image
+# docker-compose up = foreground run
+# docker-compose up -d = backround run
+# docker-compose ps = list of container
+# docker-compose logs web  = view log of web service
+# docker-compose down = remove all resource
