@@ -12,3 +12,4 @@ services:
 # docper-compose ps       = List of containers
 # docker-compose logs web = View log of web service
 # docker-compost down     = Remove all resource (container, network, volumn)
+# Hub link: https://hub.docker.com/layers/toonhudsha/app/1.1.1/images/sha256-f998ca80070bdc150f1ed8cc6e842367993162a125de10fdc5ce099d83e04f53?context=repo
