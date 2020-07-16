@@ -17,7 +17,7 @@ EXPOSE 4000
 CMD [ "npm", "start" ]
 ```
 
-Build imaage from Dockerfile
+Build image from Dockerfile
 
 ```
 $docker image build -t myapp:1.0.0 .
