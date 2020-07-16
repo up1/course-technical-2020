@@ -1,0 +1,14 @@
+version: "3.8"
+services: 
+  web:
+    build:  .
+    image: chatchanokwsa/app:1.1.1
+    ports: 
+      - "4000:4000"
+
+# doccker-compose build // Build image
+# docker-compose up // Foreground process
+# docker-compose up -d // Background process
+# docker-compose ps // List of containers
+# docker-compose logs [Name of Container] // Views log of web service
+# docker-compose down // Remove all resources(container,network)
