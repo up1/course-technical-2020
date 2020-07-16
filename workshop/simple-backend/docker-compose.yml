@@ -5,3 +5,5 @@ services:
     image: potaesm/wsapp:1.1.1
     ports:
       - "4000:4000"
+  mongo:
+    image: mongo:4.2.8-bionic
