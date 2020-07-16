@@ -1,3 +1,4 @@
+#https://hub.docker.com/repository/docker/khanend/app
 FROM node:12.18.2-stretch
 WORKDIR /app
 #Dependencies cahe not cls
