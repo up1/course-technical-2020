@@ -1,0 +1,15 @@
+version: "3.8"
+services: 
+  web: 
+    build: .
+    image: pamutakea/app:1.1.1
+    ports: 
+      - "4000:4000"
+
+#docker-compose build// buid image
+#docker-compose up// Foregound process
+#docker-compose up -d// Backgound process
+#docker-compose list// List of container(service)
+#docker-com logs web // view logs of webservice
+#docker-compose up// run image-> contol C
+#docker-compose down // remove all resources
