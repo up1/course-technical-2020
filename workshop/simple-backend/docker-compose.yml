@@ -1,0 +1,17 @@
+version: "3.8"
+services: 
+    web:
+        build: .
+        image: ekkaratpr/app:1.1.1
+        ports: 
+          - "4000:4000"
+
+
+# docker-compose build //build image
+# docker-compose up // run foreground process
+# docker-compose up -d // run background process
+
+# docker-compose down // remove all resource (container,network,volume)
+
+# docker-compose ps // process list (list of containers )(service)
+# docker-compose logs web // view logs of webs service
