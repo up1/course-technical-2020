@@ -5,3 +5,4 @@ services:
     image: neeyalionessdk/app:1.1.1
     ports:
       - "4000:4000"
+      #https://hub.docker.com/r/neeyalionessdk/app/tags
