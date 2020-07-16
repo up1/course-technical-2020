@@ -5,6 +5,27 @@ services:
     image: joker10130/app:1.1.1
     ports:
       - "4000:4000"
+    environment:
+      - MONGO_SERVER=mongo
+      - MONGO_INITDB_DATABASE=mydb
+      - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+    networks:
+      - demo-network
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:4.2.8
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+      - MONGO_INITDB_DATABASE=mydb
+    networks:
+      - demo-network
+networks:
+    demo-network:
 
 # https://hub.docker.com/repository/docker/joker10130/app
 # docker-compose build
