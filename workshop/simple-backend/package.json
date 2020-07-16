@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
-  "author": "",
+  "author": "Narongrit",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
