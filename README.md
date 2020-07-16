@@ -5,6 +5,8 @@
 * Git
 * [Docker](https://github.com/up1/course-introduction-docker)
 * Database :: SQL and NoSQL
+* Group Assignment
+  * [แปลเรื่อง Best practice to writing Dockerfile](https://github.com/up1/translate-dockerfile-01)
 
 ## Week 3
 ## Week 4
