@@ -14,6 +14,7 @@
 * [CI + Docker](https://github.com/up1/workshop-ci)
 
 ## Week 3
+* [Basic of Angular](https://github.com/up1/course-technical-2020/tree/master/angular)
 ## Week 4
 ## Week 5
 ## Week 6
