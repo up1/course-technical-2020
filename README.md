@@ -15,6 +15,8 @@
 
 ## Week 3
 * [Basic of Angular](https://github.com/up1/course-technical-2020/tree/master/angular)
+   * [Workshop 01](https://github.com/up1/angular-workshop-01)
+   * [Workshop 02](https://github.com/up1/angular-workshop-02)
 ## Week 4
 ## Week 5
 ## Week 6
@@ -28,3 +30,5 @@
   * https://github.com/features/actions
   * https://circleci.com/
   * https://travis-ci.org/
+* Angular
+  * [Deployment](https://angular.io/guide/deployment#deploy-to-github-pages)
