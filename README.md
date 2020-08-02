@@ -20,8 +20,8 @@
 ## Week 4
 ## Week 5
 * Test-Driven Development with Java
-* Basic of Sprint Boot
 * Basic of RESTFul API
+* Basic of Spring Boot
 * Testing with Spring Boot
 ## Week 6
 ## Week 7
